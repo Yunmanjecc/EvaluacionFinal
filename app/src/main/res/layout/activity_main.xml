@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/bttnDetectar"
+        android:layout_width="340dp"
+        android:layout_height="90dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Detectar color"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.500"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.100"/>
+
+    <Button
+        android:id="@+id/bttnConectar"
+        android:layout_width="340dp"
+        android:layout_height="90dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Conectar dispositivo"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.300" />
+
+    <Button
+        android:id="@+id/bttnDefinir"
+        android:layout_width="340dp"
+        android:layout_height="90dp"
+        android:backgroundTint="#FFFFFF"
+        android:backgroundTintMode="src_over"
+        android:hapticFeedbackEnabled="false"
+        android:text="Definir daltonismo"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.500"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.500" />
+
+    <Button
+        android:id="@+id/bttnAsignar"
+        android:layout_width="340dp"
+        android:layout_height="90dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Asignar texto a colores"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textIsSelectable="false"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.500"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.700" />
+
+    <Button
+        android:id="@+id/bttnMapa"
+        android:layout_width="340dp"
+        android:layout_height="90dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Ubicación actual"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.500"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.900" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
