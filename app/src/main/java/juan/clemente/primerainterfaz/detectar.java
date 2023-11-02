@@ -1,7 +1,7 @@
 package juan.clemente.primerainterfaz;
 
 //Utilizar proyecto futuro de arduino
-
+//prueba
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.palette.graphics.Palette;
